@@ -18,7 +18,6 @@ Caracteristicas Principales:
 
 Tecnologías Utilizadas
 Lenguajes de Programación y estructurado: Html, Css y JavaScript
-Frameworks y Librerías: Flutter, ARKit para realidad aumentada, TTS (Text-to-Speech) para voz. (Por implementarse)
 Mapas y Navegación: Google Maps API, OpenStreetMap
 
 Uso de la Aplicación
