@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Iniciar Sesión - Guide Sense</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="Topheader">
+      <div class="Topheader-left">
+        <img class="Logo" src="img/sense guide.png" alt="Logo" />
+        <a href="index.html" class="SiteName">Sense Guide</a>
+        <li><a href="#">Nosotros</a></li>
+      </div>
+
+      <div class="Topheader-right">
+        <a href="login.html" class="login">Iniciar Sesión</a>
+        <a href="register.html" class="register">Registrarse</a>
+
+        <div class="Busqueda">
+          <input class="Boton" type="search" placeholder="Búsqueda" />
+          <button type="button">🔍</button>
+        </div>
+      </div>
+    </div>
+
+    <section class="login-section">
+      <div class="login-box">
+        <h2>¡Bienvenido de vuelta!</h2>
+        <form>
+          <label for="username">
+            <span>👤</span>
+            <input
+              type="text"
+              id="username"
+              placeholder="Usuario o correo electrónico"
+              required
+            />
+          </label>
+          <label for="password">
+            <span>🔒</span>
+            <input
+              type="password"
+              id="password"
+              placeholder="Contraseña"
+              required
+            />
+          </label>
+          <div class="login-options">
+            <a href="#">¿Olvidaste tu contraseña?</a>
+            <button type="button" class="google-login">
+              Iniciar sesión con Google
+            </button>
+          </div>
+          <button type="submit" class="login-button">INICIAR SESIÓN</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer-section">
+      <div class="footer-bottom">
+        <p>© SenseGuide 2024</p>
+        <ul>
+          <li><a href="#">Términos y condiciones</a></li>
+          <li><a href="#">Ayuda</a></li>
+          <li><a href="#">Contáctanos</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
